@@ -1,16 +1,16 @@
 import "./App.css";
-import Dictonary from "./Dictonary";
+import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 className="mt-5 text-center">Dictonary App</h1>
+          <h1 className="mt-5 text-center">Dictionary App</h1>
           <main className="mt-5 ">
-            <Dictonary />
+            <Dictionary defaultKeyword="sunrise" />
           </main>
         </header>
-        <footer className="mt-5">
+        <footer className="App-footer mt-5">
           {" "}
           This project was coded by Sonia Kaur is open-sourced on{" "}
           <a href="/">GitHub</a> and hosted on <a href="/">Netlify</a>
