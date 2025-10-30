@@ -5,8 +5,11 @@ import Results from "./Results";
 
 export default function Dictonary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
+
   function handleResponse(response) {
-    console.log(response.data.meanings[0].definition);
+    setResults(response.data);
+    //setResults(response.data.meanings[0].definition);
   }
   function search(event) {
     event.preventDefault();
@@ -27,7 +30,7 @@ export default function Dictonary() {
         />
         <input type="submit" value="search" />
       </form>
-      <Results />
+      <Results results={results} />
     </div>
   );
 }
