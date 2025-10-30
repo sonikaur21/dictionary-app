@@ -5,8 +5,8 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 className="mt-5">Dictonary App</h1>
-          <main className="mt-5">
+          <h1 className="mt-5 text-center">Dictonary App</h1>
+          <main className="mt-5 ">
             <Dictonary />
           </main>
         </header>

@@ -21,7 +21,7 @@ export default function Dictonary() {
     setKeyword(event.target.value);
   }
   return (
-    <div className="Dictonary">
+    <div className="Dictonary ">
       <form onSubmit={search}>
         <input
           type="search"
