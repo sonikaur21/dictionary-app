@@ -5,9 +5,9 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 className="mt-5 text-center">Dictionary App</h1>
+          <h1 className="text-center">Dictionary App</h1>
           <main className="mt-5 ">
-            <Dictionary defaultKeyword="sunrise" />
+            <Dictionary defaultKeyword="hello" />
           </main>
         </header>
         <footer className="App-footer mt-5">
