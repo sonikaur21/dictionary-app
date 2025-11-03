@@ -1,6 +1,6 @@
 .Dictionary section {
   background: white;
-  padding: 30px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 20px 0;
@@ -8,6 +8,8 @@
 .Dictionary h1 {
   font-size: 20px;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 .Dictionary input {
   width: 100%;
